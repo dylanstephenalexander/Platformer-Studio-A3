@@ -13,7 +13,7 @@ public class GameManager : SingletonMonoBehavior<GameManager>
     [SerializeField] private GameObject settingsMenu;
 
     private bool isSettingsMenuActive;
-    private bool IsSettingsMenuActive => isSettingsMenuActive;
+    public bool IsSettingsMenuActive => isSettingsMenuActive;
 
     protected override void Awake()
     {
